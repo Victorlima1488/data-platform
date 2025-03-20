@@ -7,6 +7,9 @@
 *.tfstate.*
 
 *.pem
+.env
 
 .dev_env/
 aws/
+
+key*
