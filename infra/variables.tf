@@ -13,3 +13,12 @@ variable "chave_SSH" {
 variable "instancia" {
     type = string
 }
+
+variable "account_id" {
+  description = "AWS Account ID for bucket naming"
+  type        = string
+}
+
+variable "nome_ecr" {
+  type = string
+}
